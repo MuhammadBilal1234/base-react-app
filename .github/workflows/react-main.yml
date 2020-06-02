@@ -27,5 +27,5 @@ jobs:
         node-version:  12
     - name: Install Surge
       run: npm install -g surge
-    - name: Run Surge
+    - name: Run Surge for react
       run: surge ./build base-react-app-bilal.surge.sh --token ${{secrets.SURGE_TOKEN}}  
