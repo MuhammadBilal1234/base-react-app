@@ -1,23 +1,19 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-
+import "./Hello.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Muhammad Bilal React Assignment#2</p>
-        <p>Bootcamp 2020</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="header">
+      <p>
+        Hello <strong>Muhammad Bilal</strong>
+      </p>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Pricing</li>
+      </ul>
+
+      <p>Simple Math through JSX 5+1 = {5 + 1}</p>
     </div>
   );
 }
